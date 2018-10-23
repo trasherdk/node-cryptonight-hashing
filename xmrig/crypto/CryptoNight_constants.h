@@ -43,7 +43,8 @@ constexpr const uint32_t CRYPTONIGHT_XAO_ITER     = 0x100000;
 
 constexpr const size_t   CRYPTONIGHT_LITE_MEMORY  = 1 * 1024 * 1024;
 constexpr const uint32_t CRYPTONIGHT_LITE_MASK    = 0xFFFF0;
-constexpr const uint32_t CRYPTONIGHT_LITE_ITER    = 0x40000;
+//constexpr const uint32_t CRYPTONIGHT_LITE_ITER    = 0x40000;
+constexpr const uint32_t CRYPTONIGHT_LITE_ITER    = 0x20000;
 
 constexpr const size_t   CRYPTONIGHT_HEAVY_MEMORY = 4 * 1024 * 1024;
 constexpr const uint32_t CRYPTONIGHT_HEAVY_MASK   = 0x3FFFF0;
