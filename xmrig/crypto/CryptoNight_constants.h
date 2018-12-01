@@ -151,7 +151,7 @@ inline uint32_t cn_select_iter(Algo algorithm, Variant variant)
         return CRYPTONIGHT_ITER;
 
     case CRYPTONIGHT_UPX:
-        return CRYPTONIGHT_LITE_UPX;
+        return CRYPTONIGHT_UPX;
 
     case CRYPTONIGHT_LITE:
         return CRYPTONIGHT_LITE_ITER;
