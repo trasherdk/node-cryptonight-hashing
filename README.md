@@ -25,7 +25,7 @@ So far this native Node.js addon can do the following hashing algos
 ```javascript
 var multiHashing = require('cryptonight-hashing');
 
-var algorithms = ['cryptonight', 'cryptonight-upx', 'cryptonight_light', 'cryptonight_heavy' ];
+var algorithms = ['cryptonight', 'cryptonight_upx', 'cryptonight_light', 'cryptonight_heavy' ];
 // Way to go with the original format. Just wow, self.
 
 var data = new Buffer("7000000001e980924e4e1109230383e66d62945ff8e749903bea4336755c00000000000051928aff1b4d72416173a8c3948159a09a73ac3bb556aa6bfbcad1a85da7f4c1d13350531e24031b939b9e2b", "hex");
